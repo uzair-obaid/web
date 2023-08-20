@@ -1,0 +1,119 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 10;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style:square;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #a29d9d;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #4a4747;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hero {
+    background-image: url('college.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 5rem 0;
+    color: #3b1e1e;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.admission-form input[type="text"],
+.admission-form input[type="email"],
+.admission-form select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.admission-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.courses-item {
+    background-color: #fff;
+    
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.contact-us {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
